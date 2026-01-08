@@ -150,7 +150,7 @@ const expCards = [
   },
   {
     review:
-      "In this project, I have worked as a MERN stack Developer, it's a fully functional e-commerce website compatible for every devices, and I have created both client section and admin section, the most interesting part of this project is it's admin section there you can lookafter each and every data available in database admin can edit the data. The name of the web application is CloudCart.",
+      "In this project, I have worked as a MERN stack Developer, it's a fully functional e-commerce website compatible for every devices, and I have created both client section and admin section, the most interesting part of this project is it's admin section there you can lookafter each and every data available in database admin can edit the data. Hashing technology is used to secure the passwords of the users, The name of the web application is CloudCart.",
     imgPath: "/images/exp2.png",
     logoPath: "/images/logo2.png",
     title: "Full Stack Developer",
