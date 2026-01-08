@@ -56,7 +56,10 @@ const Hero = () => {
               <h1>that Deliver Results</h1>
             </div>
             <p className='text-white-50 md:text-xl relative z-10'>
-              Hi, I'm Aritra Karan, a developer based in India with a passion for code
+              Hi, I'm Aritra Karan - a Full-Stack MERN developer crafting modern- 
+            </p>
+            <p className='text-white-50 md:text-xl relative z-10'>
+              web application with clean code smooth ui, and scalable architecture.
             </p>
             <Button
              className="md:w-80 md:h-16 w-60 h-12"
