@@ -29,8 +29,8 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 1, suffix: "+", label: "Years of Web Developement Experience" },
-  { value: 1, suffix: "+", label: "Year DSA experience" },
+  { value: 2, suffix: "+", label: "Years of Web Developement Experience" },
+  { value: 2, suffix: "+", label: "Year DSA experience" },
   { value: 5, suffix: "+", label: "Completed Projects" },
   { value: 90, suffix: "%", label: "Project completion Rate" },
 ];
