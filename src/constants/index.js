@@ -248,9 +248,9 @@ const socialImgs = [
     imgPath: "/images/fb.png",
   },
   {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "GitHub",
+    url: "https://github.com/Ak200102",
+    imgPath: "/images/github.png",
   },
   {
     name: "linkedin",
