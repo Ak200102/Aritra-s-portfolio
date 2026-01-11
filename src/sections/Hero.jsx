@@ -5,6 +5,7 @@ import HeroExperience from '../components/HeroModels/HeroExperience.jsx'
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import AnimatedCounter from '../components/AnimatedCounter.jsx';
+import ButtonHero from '../components/ButtonHero.jsx';
 const Hero = () => {
   useGSAP(()=>{
     gsap.fromTo('.hero-text h1' ,
@@ -61,7 +62,7 @@ const Hero = () => {
             <p className='text-white-50 md:text-xl relative z-10'>
               web application with clean code smooth ui, and scalable architecture.
             </p>
-            <Button
+            <ButtonHero
              className="md:w-80 md:h-16 w-60 h-12"
              id="button"
              text="See my Work"
