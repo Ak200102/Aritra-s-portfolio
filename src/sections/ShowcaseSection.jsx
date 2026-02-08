@@ -44,38 +44,27 @@ const ShowcaseSection = () => {
     <section id='work' ref={sectionRef} className='app-showcase'>
       <div className='w-full'>
         <div className='showcaselayout'>
-            {/*Left  */}
-            {/* <div className='first-project-wrapper' ref={project1Ref}>
-                <div className='image-wrapper'>
-                    <img src='/images/project1.png' alt='CloudCart'/>
-                </div>
-                <div className='text-content'>
-                    <h2>On-Demand Purchasing Made Simple with a Powerful, User-Friendly E-Commerce website called CloudCart </h2>
-                    <p className='text-white-50 md:text-xl'>
-                        An responsive e-commerce website built with MongoDb,Express js, React js, Tailwind css, Node js, Redux-toolkit
-                    </p>
-                </div>
-            </div> */}
+            
             <div className='project-list-wrapper overflow-hidden'>
                 <div className='project' ref={project2Ref}>
-                    <div className='image-wrapper bg-[#ffefdb]'>
+                    {/* <div className='image-wrapper bg-[#ffefdb]'> */}
                         <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                             <a href='https://cloudcart-frontend.vercel.app/' target='_blank'>
                             <img src='/images/project1.png' alt='CloudCart Admin'/>
                             </a>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <h2>On-Demand Purchasing Made Simple, User-Friendly E-Commerce website called CloudCart.</h2>
                 </div>
 
                 <div className='project' ref={project3Ref}>
-                    <div className='image-wrapper bg-[#ffe7eb]'>
+                    {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                         <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                             <a href='https://ai-counsellor-one.vercel.app/' target='_blank'>
                             <img src='/images/project4.png' alt='Ai-counsellor'/>
                             </a>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <h2>An advance Ai powered,User friendly,responsive study abroad counsellor.</h2>
                 </div>
             </div>
@@ -83,24 +72,24 @@ const ShowcaseSection = () => {
             {/*Right */}
             <div className='project-list-wrapper overflow-hidden'>
                 <div className='project' ref={project2Ref}>
-                    <div className='image-wrapper bg-[#ffefdb]'>
+                    {/* <div className='image-wrapper bg-[#ffefdb]'> */}
                         <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                             <a href='https://cloudcart-admin.vercel.app/' target='_blank'>
                             <img src='/images/project2.png' alt='CloudCart Admin'/>
                             </a>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <h2>A simple,powerful and User Friendly Imformative Admin Control Website Called CloudCart Admin.</h2>
                 </div>
 
                 <div className='project' ref={project3Ref}>
-                    <div className='image-wrapper bg-[#ffe7eb]'>
+                    {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                         <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                             <a href='https://virtual-assistant-lilac.vercel.app/' target='_blank'>
                             <img src='/images/project3.png' alt='NewsHacks'/>
                             </a>
                         </div>
-                    </div>
+                    {/* </div> */}
                     <h2>A simple smart, userfriendly,responsive virtual voice assistant.</h2>
                 </div>
             </div>
