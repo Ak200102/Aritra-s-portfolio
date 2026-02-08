@@ -90,7 +90,7 @@ const ShowcaseSection = () => {
                             </a>
                         </div>
                     {/* </div> */}
-                    <h2>A simple smart, userfriendly,responsive virtual voice assistant.</h2>
+                    <h2>A simple smart, User Friendly,responsive virtual voice assistant.</h2>
                 </div>
             </div>
         </div>
