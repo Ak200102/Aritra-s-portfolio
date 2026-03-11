@@ -71,7 +71,7 @@ const AboutMe = () => {
 
             <Button
               text="DOWNLOAD RESUME"
-              href="/Aritra_Karan_Resume(3).pdf"
+              href="/Aritra_karan_resume(25).pdf"
               download
             />
           </div>
