@@ -10,6 +10,9 @@ const ShowcaseSection = () => {
     const project1Ref = useRef(null);
     const project2Ref = useRef(null);
     const project3Ref = useRef(null);
+    const project4Ref = useRef(null);
+    const project5Ref = useRef(null);
+    const project6Ref = useRef(null);
 
 
 
@@ -20,7 +23,7 @@ const ShowcaseSection = () => {
             { opacity: 0 },
             { opacity: 1, duration: 1.5 }
         );
-        const projects = [project1Ref.current, project2Ref.current, project3Ref.current];
+        const projects = [project1Ref.current, project2Ref.current, project3Ref.current, project4Ref.current, project5Ref.current, project6Ref.current];
         projects.forEach((card, index) => {
             gsap.fromTo(
                 card,
@@ -46,7 +49,7 @@ const ShowcaseSection = () => {
                 <div className='showcaselayout'>
 
                     <div className='project-list-wrapper overflow-hidden'>
-                        <div className='project' ref={project2Ref}>
+                        <div className='project' ref={project1Ref}>
                             {/* <div className='image-wrapper bg-[#ffefdb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                                 <a href='https://cloudcart-frontend.vercel.app/' target='_blank'>
@@ -57,7 +60,7 @@ const ShowcaseSection = () => {
                             <h2>On-Demand Purchasing Made Simple, User-Friendly E-Commerce website called CloudCart.</h2>
                         </div>
 
-                        <div className='project' ref={project3Ref}>
+                        <div className='project' ref={project2Ref}>
                             {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                                 <a href='https://ai-counsellor-one.vercel.app/' target='_blank'>
@@ -82,7 +85,7 @@ const ShowcaseSection = () => {
 
                     {/*Right */}
                     <div className='project-list-wrapper overflow-hidden'>
-                        <div className='project' ref={project2Ref}>
+                        <div className='project' ref={project4Ref}>
                             {/* <div className='image-wrapper bg-[#ffefdb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                                 <a href='https://cloudcart-admin.vercel.app/' target='_blank'>
@@ -93,7 +96,7 @@ const ShowcaseSection = () => {
                             <h2>A simple,powerful and User Friendly Imformative Admin Control Website Called CloudCart Admin.</h2>
                         </div>
 
-                        <div className='project' ref={project3Ref}>
+                        <div className='project' ref={project5Ref}>
                             {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                                 <a href='https://virtual-assistant-lilac.vercel.app/' target='_blank'>
@@ -104,7 +107,7 @@ const ShowcaseSection = () => {
                             <h2>A simple smart, User Friendly,responsive virtual voice assistant.</h2>
                         </div>
 
-                        <div className='project' ref={project3Ref}>
+                        <div className='project' ref={project6Ref}>
                             {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
                                 <a href='https://virtual-assistant-lilac.vercel.app/' target='_blank'>
