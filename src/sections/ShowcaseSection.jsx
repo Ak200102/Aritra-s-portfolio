@@ -110,7 +110,7 @@ const ShowcaseSection = () => {
                         <div className='project' ref={project6Ref}>
                             {/* <div className='image-wrapper bg-[#ffe7eb]'> */}
                             <div className='flex items-center justify-items-center pt-6 hover:scale-110 transition-all duration-500 ease-in-out'>
-                                <a href='https://virtual-assistant-lilac.vercel.app/' target='_blank'>
+                                <a href='https://zynqo-beta.vercel.app/' target='_blank'>
                                     <img src='/images/project6.png' alt='Zynqo' />
                                 </a>
                             </div>
